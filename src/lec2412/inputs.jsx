@@ -9,7 +9,7 @@ render()
             <input type="email" placeholder="Enter Email" /><br />
             <input type="password" placeholder="Enter Password" /><br />
             <input type="radio" name="gender" id="r1" />Male 
-            <input type="radio" name="gender" id="r1" />Femal <br />
+            <input type="radio" name="gender" id="r1" />Female <br />
             <input type="submit" value="Submit" />
         </div>
     )

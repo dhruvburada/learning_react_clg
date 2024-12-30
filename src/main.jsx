@@ -1,12 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Timetable from './lec2412/TimeTable';
+import StateDemo3 from './lec3012/State_Management3'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   {/* <Component2/> */}
-   {/* <Inputs/> */}
-    <Timetable></Timetable>
-  
+    <StateDemo3/>
   </StrictMode>,
 )
