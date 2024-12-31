@@ -52,3 +52,15 @@ class StateDemo3 extends React.Component {
 
 
 export default StateDemo3;
+
+// main.jsx
+
+// import { StrictMode } from 'react'
+// import { createRoot } from 'react-dom/client'
+// import StateDemo3 from './lec3012/State_Management3'
+
+// createRoot(document.getElementById('root')).render(
+//   <StrictMode>
+//     <StateDemo3/>
+//   </StrictMode>,
+// )
