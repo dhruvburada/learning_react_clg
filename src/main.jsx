@@ -1,9 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import FunctionComp1 from './lec3112/hookcomp1'
+import CountDownTime from './lec1801/countdownTimer'
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <FunctionComp1/>
+   <CountDownTime/>
   </StrictMode>,
 )
