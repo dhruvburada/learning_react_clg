@@ -1,0 +1,8 @@
+Create a registration form with following user details 
+When user enters the details  it should be visible under the registration form
+1. Cricketer Name (name should be atleast 10 characters long)
+2. Gender (Radio button)
+3. Email 
+4. Types of matches played (ODI,TEST,T20,Domestic)(Checkbox)
+5. State (Dropdown)
+6. Date of Birth

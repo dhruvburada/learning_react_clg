@@ -1,0 +1,106 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container Styles */
+  div {
+    box-sizing: border-box;
+  }
+  
+  /* Form Container */
+  form {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Form Header */
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Labels */
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Input Fields */
+  input[type="text"],
+  input[type="email"],
+  select,
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Radio and Checkbox Styling */
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  label.inline {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  /* Submit Button */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Submitted Data Display */
+  h3 {
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    form {
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 18px;
+    }
+  
+    button {
+      font-size: 14px;
+    }
+  }
+  
